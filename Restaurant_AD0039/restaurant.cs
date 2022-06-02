@@ -13,17 +13,18 @@ namespace Restaurant_AD0039
     public partial class frmrestaurant : Form
     {
         private List<User> UsersList = new List<User>();
+        private List<Casheruser> CasheruserList = new List<Casheruser>();
         public frmrestaurant()
         {
             InitializeComponent();
             User user1 = new User("feras", "123");
-            User user2 = new User("sameer", "1234");
-            User user3 = new User("ramadan", "12345");
-            User user4 = new User("saleem", "123456");
+
+            Casheruser user2 = new Casheruser("sameer", "1234");
+
+
             UsersList.Add(user1);
-            UsersList.Add(user2);
-            UsersList.Add(user3);
-            UsersList.Add(user4);
+            CasheruserList.Add(user2);
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -38,8 +39,21 @@ namespace Restaurant_AD0039
                     frm.Show();
                     return;
                 }
+                
             }
-            MessageBox.Show("Worng UserName or Password");
+            
+            ////////////////////////////////////////
+            string _cashname = txtUserName.Text;
+            string _password = txtPassword.Text;
+            foreach (Casheruser casheuser in CasheruserList)
+            {
+                if (_cashname == casheuser.CashName && _password == casheuser.Password)
+                {
+                    frmCaher frmc = new frmCaher(txtUserName.Text);
+                    frmc.Show();
+                    return;
+                }
+            }
 
 
         }

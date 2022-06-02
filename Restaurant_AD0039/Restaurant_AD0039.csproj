@@ -46,31 +46,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Appetizers.cs">
+    <Compile Include="ADD\ADDSeaFood.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Appetizers.Designer.cs">
+    <Compile Include="ADD\ADDSeaFood.Designer.cs">
+      <DependentUpon>ADDSeaFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADD\ADDAppetizers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD\ADDAppetizers.Designer.cs">
+      <DependentUpon>ADDAppetizers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADD\ADDfastfood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD\ADDfastfood.Designer.cs">
+      <DependentUpon>ADDfastfood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADD\ADDJuices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD\ADDJuices.Designer.cs">
+      <DependentUpon>ADDJuices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Casher\Casheruser.cs" />
+    <Compile Include="Casher\frmCaher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Casher\frmCaher.Designer.cs">
+      <DependentUpon>frmCaher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADD\ADDSandwiches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD\ADDSandwiches.Designer.cs">
+      <DependentUpon>ADDSandwiches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\Appetizers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\Appetizers.Designer.cs">
       <DependentUpon>Appetizers.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataBase.cs">
+    <Compile Include="User\FastFood.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataBase.designer.cs">
-      <DependentUpon>DataBase.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FastFood.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FastFood.Designer.cs">
+    <Compile Include="User\FastFood.Designer.cs">
       <DependentUpon>FastFood.cs</DependentUpon>
     </Compile>
-    <Compile Include="Juices.cs">
+    <Compile Include="User\Juices.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Juices.Designer.cs">
+    <Compile Include="User\Juices.Designer.cs">
       <DependentUpon>Juices.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListItem.cs" />
+    <Compile Include="User\ListItem.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,29 +116,44 @@
     <Compile Include="Restaurant.Designer.cs">
       <DependentUpon>restaurant.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sandwiches.cs">
+    <Compile Include="User\Sandwiches.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sandwiches.Designer.cs">
+    <Compile Include="User\Sandwiches.Designer.cs">
       <DependentUpon>Sandwiches.cs</DependentUpon>
     </Compile>
-    <Compile Include="SeaFood.cs">
+    <Compile Include="User\SeaFood.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SeaFood.Designer.cs">
+    <Compile Include="User\SeaFood.Designer.cs">
       <DependentUpon>SeaFood.cs</DependentUpon>
     </Compile>
-    <Compile Include="User.cs" />
-    <EmbeddedResource Include="Appetizers.resx">
+    <Compile Include="User\User.cs" />
+    <EmbeddedResource Include="ADD\ADDSeaFood.resx">
+      <DependentUpon>ADDSeaFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADD\ADDAppetizers.resx">
+      <DependentUpon>ADDAppetizers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADD\ADDfastfood.resx">
+      <DependentUpon>ADDfastfood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADD\ADDJuices.resx">
+      <DependentUpon>ADDJuices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Casher\frmCaher.resx">
+      <DependentUpon>frmCaher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADD\ADDSandwiches.resx">
+      <DependentUpon>ADDSandwiches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\Appetizers.resx">
       <DependentUpon>Appetizers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataBase.resx">
-      <DependentUpon>DataBase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FastFood.resx">
+    <EmbeddedResource Include="User\FastFood.resx">
       <DependentUpon>FastFood.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Juices.resx">
+    <EmbeddedResource Include="User\Juices.resx">
       <DependentUpon>Juices.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
@@ -126,10 +172,10 @@
     <EmbeddedResource Include="Restaurant.resx">
       <DependentUpon>restaurant.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sandwiches.resx">
+    <EmbeddedResource Include="User\Sandwiches.resx">
       <DependentUpon>Sandwiches.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SeaFood.resx">
+    <EmbeddedResource Include="User\SeaFood.resx">
       <DependentUpon>SeaFood.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -147,6 +193,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="..\..\..\Database21.accdb">
+      <Link>DataBase\Database21.accdb</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

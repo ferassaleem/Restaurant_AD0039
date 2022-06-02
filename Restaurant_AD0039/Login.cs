@@ -71,12 +71,11 @@ namespace Restaurant_AD0039
 
         }
 
-        private void btnDataBase_Click(object sender, EventArgs e)
+
+
+        private void lblWelcome_Click(object sender, EventArgs e)
         {
-            frmDataBase Data = new frmDataBase();
-            Data.TopLevel = false;
-            this.panel3.Controls.Add(Data);
-            Data.Show();
+
         }
     }
 }

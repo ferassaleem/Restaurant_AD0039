@@ -1,7 +1,7 @@
 ﻿
 namespace Restaurant_AD0039
 {
-    partial class frmJuices
+    partial class frmAppetizers
     {
         /// <summary>
         /// Required designer variable.
@@ -29,36 +29,37 @@ namespace Restaurant_AD0039
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmJuices));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAppetizers));
             this.btnClearSelection = new System.Windows.Forms.Button();
             this.btnProcessOrder = new System.Windows.Forms.Button();
             this.cmbxQuantity = new System.Windows.Forms.ComboBox();
             this.lblQuantity = new System.Windows.Forms.Label();
-            this.lblJuices = new System.Windows.Forms.Label();
-            this.lbxSelection5 = new System.Windows.Forms.ListBox();
+            this.lblFood = new System.Windows.Forms.Label();
+            this.lbxSelection4 = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClearSelection
             // 
-            this.btnClearSelection.BackColor = System.Drawing.Color.MediumOrchid;
-            this.btnClearSelection.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnClearSelection.Location = new System.Drawing.Point(214, 255);
+            this.btnClearSelection.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnClearSelection.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
+            this.btnClearSelection.Location = new System.Drawing.Point(183, 221);
             this.btnClearSelection.Name = "btnClearSelection";
-            this.btnClearSelection.Size = new System.Drawing.Size(100, 60);
+            this.btnClearSelection.Size = new System.Drawing.Size(86, 52);
             this.btnClearSelection.TabIndex = 18;
             this.btnClearSelection.Text = "Clear Selection";
             this.btnClearSelection.UseVisualStyleBackColor = false;
-            this.btnClearSelection.Click += new System.EventHandler(this.btnClearSelection_Click_1);
+            this.btnClearSelection.Click += new System.EventHandler(this.btnClearSelection_Click);
             // 
             // btnProcessOrder
             // 
-            this.btnProcessOrder.BackColor = System.Drawing.Color.MediumOrchid;
-            this.btnProcessOrder.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnProcessOrder.Location = new System.Drawing.Point(101, 255);
+            this.btnProcessOrder.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnProcessOrder.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
+            this.btnProcessOrder.Location = new System.Drawing.Point(87, 221);
             this.btnProcessOrder.Name = "btnProcessOrder";
-            this.btnProcessOrder.Size = new System.Drawing.Size(100, 60);
+            this.btnProcessOrder.Size = new System.Drawing.Size(86, 52);
             this.btnProcessOrder.TabIndex = 17;
             this.btnProcessOrder.Text = "Process Order";
             this.btnProcessOrder.UseVisualStyleBackColor = false;
@@ -66,7 +67,7 @@ namespace Restaurant_AD0039
             // 
             // cmbxQuantity
             // 
-            this.cmbxQuantity.Font = new System.Drawing.Font("Viner Hand ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.cmbxQuantity.Font = new System.Drawing.Font("Viner Hand ITC", 9.75F, System.Drawing.FontStyle.Bold);
             this.cmbxQuantity.FormattingEnabled = true;
             this.cmbxQuantity.Items.AddRange(new object[] {
             1,
@@ -79,69 +80,81 @@ namespace Restaurant_AD0039
             8,
             9,
             10});
-            this.cmbxQuantity.Location = new System.Drawing.Point(260, 111);
+            this.cmbxQuantity.Location = new System.Drawing.Point(242, 96);
             this.cmbxQuantity.Name = "cmbxQuantity";
-            this.cmbxQuantity.Size = new System.Drawing.Size(54, 29);
+            this.cmbxQuantity.Size = new System.Drawing.Size(47, 29);
             this.cmbxQuantity.TabIndex = 16;
             // 
             // lblQuantity
             // 
             this.lblQuantity.AutoSize = true;
-            this.lblQuantity.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblQuantity.Location = new System.Drawing.Point(260, 80);
+            this.lblQuantity.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
+            this.lblQuantity.Location = new System.Drawing.Point(242, 69);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(85, 23);
             this.lblQuantity.TabIndex = 15;
             this.lblQuantity.Text = "Quantity ";
             // 
-            // lblJuices
+            // lblFood
             // 
-            this.lblJuices.AutoSize = true;
-            this.lblJuices.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblJuices.Location = new System.Drawing.Point(124, 80);
-            this.lblJuices.Name = "lblJuices";
-            this.lblJuices.Size = new System.Drawing.Size(58, 23);
-            this.lblJuices.TabIndex = 14;
-            this.lblJuices.Text = "Juices";
+            this.lblFood.AutoSize = true;
+            this.lblFood.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
+            this.lblFood.Location = new System.Drawing.Point(106, 69);
+            this.lblFood.Name = "lblFood";
+            this.lblFood.Size = new System.Drawing.Size(45, 23);
+            this.lblFood.TabIndex = 14;
+            this.lblFood.Text = "Food";
             // 
-            // lbxSelection5
+            // lbxSelection4
             // 
-            this.lbxSelection5.BackColor = System.Drawing.SystemColors.Window;
-            this.lbxSelection5.Font = new System.Drawing.Font("Viner Hand ITC", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbxSelection5.FormattingEnabled = true;
-            this.lbxSelection5.ItemHeight = 21;
-            this.lbxSelection5.Location = new System.Drawing.Point(124, 111);
-            this.lbxSelection5.Name = "lbxSelection5";
-            this.lbxSelection5.Size = new System.Drawing.Size(107, 109);
-            this.lbxSelection5.TabIndex = 13;
+            this.lbxSelection4.Font = new System.Drawing.Font("Viner Hand ITC", 9.75F, System.Drawing.FontStyle.Bold);
+            this.lbxSelection4.FormattingEnabled = true;
+            this.lbxSelection4.ItemHeight = 21;
+            this.lbxSelection4.Location = new System.Drawing.Point(106, 96);
+            this.lbxSelection4.Name = "lbxSelection4";
+            this.lbxSelection4.Size = new System.Drawing.Size(130, 109);
+            this.lbxSelection4.TabIndex = 13;
+            this.lbxSelection4.SelectedIndexChanged += new System.EventHandler(this.lbxSelection4_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 8);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(106, 94);
+            this.pictureBox1.Size = new System.Drawing.Size(91, 81);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
-            // frmJuices
+            // button1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.button1.BackColor = System.Drawing.Color.LimeGreen;
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(0, 311);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(33, 30);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // frmAppetizers
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Thistle;
-            this.ClientSize = new System.Drawing.Size(418, 395);
+            this.BackColor = System.Drawing.Color.PaleGreen;
+            this.ClientSize = new System.Drawing.Size(358, 342);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnClearSelection);
             this.Controls.Add(this.btnProcessOrder);
             this.Controls.Add(this.cmbxQuantity);
             this.Controls.Add(this.lblQuantity);
-            this.Controls.Add(this.lblJuices);
-            this.Controls.Add(this.lbxSelection5);
+            this.Controls.Add(this.lblFood);
+            this.Controls.Add(this.lbxSelection4);
             this.Location = new System.Drawing.Point(50, 50);
-            this.Name = "frmJuices";
-            this.Text = "Juices";
-            this.Load += new System.EventHandler(this.frmJuices_Load);
+            this.Name = "frmAppetizers";
+            this.Text = "Appetizers";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -154,8 +167,9 @@ namespace Restaurant_AD0039
         private System.Windows.Forms.Button btnProcessOrder;
         private System.Windows.Forms.ComboBox cmbxQuantity;
         private System.Windows.Forms.Label lblQuantity;
-        private System.Windows.Forms.Label lblJuices;
-        private System.Windows.Forms.ListBox lbxSelection5;
+        private System.Windows.Forms.Label lblFood;
+        private System.Windows.Forms.ListBox lbxSelection4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -38,7 +38,6 @@ namespace Restaurant_AD0039
             this.btnSandwiches = new System.Windows.Forms.Button();
             this.btnFastfood = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnDataBase = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -50,7 +49,7 @@ namespace Restaurant_AD0039
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(536, 76);
+            this.panel1.Size = new System.Drawing.Size(538, 76);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -63,11 +62,11 @@ namespace Restaurant_AD0039
             this.lblWelcome.Size = new System.Drawing.Size(56, 23);
             this.lblWelcome.TabIndex = 0;
             this.lblWelcome.Text = "label1";
+            this.lblWelcome.Click += new System.EventHandler(this.lblWelcome_Click);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel2.Controls.Add(this.btnDataBase);
             this.panel2.Controls.Add(this.btnJuices);
             this.panel2.Controls.Add(this.btnSeafood);
             this.panel2.Controls.Add(this.btnAppetizers);
@@ -76,7 +75,7 @@ namespace Restaurant_AD0039
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 76);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(149, 357);
+            this.panel2.Size = new System.Drawing.Size(149, 361);
             this.panel2.TabIndex = 1;
             // 
             // btnJuices
@@ -145,26 +144,14 @@ namespace Restaurant_AD0039
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(149, 76);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(387, 357);
+            this.panel3.Size = new System.Drawing.Size(389, 361);
             this.panel3.TabIndex = 2;
-            // 
-            // btnDataBase
-            // 
-            this.btnDataBase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnDataBase.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
-            this.btnDataBase.Location = new System.Drawing.Point(29, 313);
-            this.btnDataBase.Name = "btnDataBase";
-            this.btnDataBase.Size = new System.Drawing.Size(96, 36);
-            this.btnDataBase.TabIndex = 10;
-            this.btnDataBase.Text = "DataBase";
-            this.btnDataBase.UseVisualStyleBackColor = false;
-            this.btnDataBase.Click += new System.EventHandler(this.btnDataBase_Click);
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(536, 433);
+            this.ClientSize = new System.Drawing.Size(538, 437);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -189,6 +176,5 @@ namespace Restaurant_AD0039
         private System.Windows.Forms.Button btnAppetizers;
         private System.Windows.Forms.Button btnSandwiches;
         private System.Windows.Forms.Button btnFastfood;
-        private System.Windows.Forms.Button btnDataBase;
     }
 }

@@ -36,6 +36,7 @@ namespace Restaurant_AD0039
             this.btnClearSelection = new System.Windows.Forms.Button();
             this.btnProcessOrder = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,7 +47,7 @@ namespace Restaurant_AD0039
             this.lbxSelection.ItemHeight = 21;
             this.lbxSelection.Location = new System.Drawing.Point(106, 96);
             this.lbxSelection.Name = "lbxSelection";
-            this.lbxSelection.Size = new System.Drawing.Size(91, 88);
+            this.lbxSelection.Size = new System.Drawing.Size(130, 109);
             this.lbxSelection.TabIndex = 7;
             // 
             // cmbxQuantity
@@ -64,7 +65,7 @@ namespace Restaurant_AD0039
             8,
             9,
             10});
-            this.cmbxQuantity.Location = new System.Drawing.Point(223, 96);
+            this.cmbxQuantity.Location = new System.Drawing.Point(242, 96);
             this.cmbxQuantity.Name = "cmbxQuantity";
             this.cmbxQuantity.Size = new System.Drawing.Size(47, 29);
             this.cmbxQuantity.TabIndex = 10;
@@ -73,7 +74,7 @@ namespace Restaurant_AD0039
             // 
             this.lblQuantity.AutoSize = true;
             this.lblQuantity.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
-            this.lblQuantity.Location = new System.Drawing.Point(223, 69);
+            this.lblQuantity.Location = new System.Drawing.Point(242, 69);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(85, 23);
             this.lblQuantity.TabIndex = 9;
@@ -124,12 +125,25 @@ namespace Restaurant_AD0039
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(12, 300);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(33, 30);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmSeaFood
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aquamarine;
             this.ClientSize = new System.Drawing.Size(358, 342);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnClearSelection);
             this.Controls.Add(this.btnProcessOrder);
@@ -155,5 +169,6 @@ namespace Restaurant_AD0039
         private System.Windows.Forms.Button btnClearSelection;
         private System.Windows.Forms.Button btnProcessOrder;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
