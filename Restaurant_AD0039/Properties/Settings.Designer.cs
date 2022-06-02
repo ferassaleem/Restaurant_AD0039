@@ -32,5 +32,16 @@ namespace Restaurant_AD0039.Properties {
                 return ((string)(this["Database21ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\SCHOOL\\Desktop\\Database21." +
+            "accdb;Persist Security Info=True")]
+        public string Database21ConnectionString1 {
+            get {
+                return ((string)(this["Database21ConnectionString1"]));
+            }
+        }
     }
 }
