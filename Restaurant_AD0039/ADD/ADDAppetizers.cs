@@ -82,10 +82,7 @@ namespace Restaurant_AD0039
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            frmAppetizers frmAp = new frmAppetizers();
-            frmAp.Show();
-            ADDAppetizers addAp = new ADDAppetizers();
-            addAp.Close();
+            Close();
         }
     }
 }

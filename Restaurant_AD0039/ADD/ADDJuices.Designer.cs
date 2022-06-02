@@ -158,6 +158,7 @@ namespace Restaurant_AD0039
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAdd);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ADDJuices";
             this.Text = "ADDJuices";
             this.ResumeLayout(false);

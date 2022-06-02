@@ -84,10 +84,7 @@ namespace Restaurant_AD0039
         private void btnBack_Click(object sender, EventArgs e)
         {
             
-            frmJuices frmj = new frmJuices();
-            frmj.Show();
-            ADDJuices addj = new ADDJuices();
-            addj.Close();
+            Close();
         }
     }
 }

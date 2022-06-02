@@ -68,7 +68,13 @@ namespace Restaurant_AD0039
         private void button1_Click(object sender, EventArgs e)
         {
             ADDAppetizers addAp = new ADDAppetizers();
+            addAp.Dock = DockStyle.Fill;
             addAp.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

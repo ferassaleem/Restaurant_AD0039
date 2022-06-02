@@ -23,6 +23,7 @@ namespace Restaurant_AD0039
         {
             frmSeaFood SeaFood = new frmSeaFood();
             SeaFood.TopLevel = false;
+            SeaFood.Dock = DockStyle.Fill;
             this.panel3.Controls.Add(SeaFood);
             SeaFood.Show();
         }
@@ -31,6 +32,7 @@ namespace Restaurant_AD0039
         {
             frmfastfood fastfood = new frmfastfood();
             fastfood.TopLevel = false;
+            fastfood.Dock = DockStyle.Fill;
             this.panel3.Controls.Add(fastfood);
             fastfood.Show();
         }
@@ -39,6 +41,7 @@ namespace Restaurant_AD0039
         {
             frmSandwiches Sandwiches = new frmSandwiches();
             Sandwiches.TopLevel = false;
+            Sandwiches.Dock = DockStyle.Fill;
             this.panel3.Controls.Add(Sandwiches);
             Sandwiches.Show();
         }
@@ -47,6 +50,7 @@ namespace Restaurant_AD0039
         {
             frmAppetizers Appetizers = new frmAppetizers();
             Appetizers.TopLevel = false;
+            Appetizers.Dock = DockStyle.Fill;
             this.panel3.Controls.Add(Appetizers);
             Appetizers.Show();
         }
@@ -55,6 +59,7 @@ namespace Restaurant_AD0039
         {
             frmJuices Juices = new frmJuices();
             Juices.TopLevel = false;
+            Juices.Dock = DockStyle.Fill;
             this.panel3.Controls.Add(Juices);
             Juices.Show();
         }

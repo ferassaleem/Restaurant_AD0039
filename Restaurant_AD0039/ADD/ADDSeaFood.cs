@@ -86,10 +86,7 @@ namespace Restaurant_AD0039
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            frmSeaFood frmse = new frmSeaFood();
-            frmse.Show();
-            ADDSeaFood addse = new ADDSeaFood();
-            addse.Close();
+            Close();
         }
     }
 }

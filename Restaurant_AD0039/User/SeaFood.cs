@@ -72,7 +72,13 @@ namespace Restaurant_AD0039
         private void button1_Click(object sender, EventArgs e)
         {
             ADDSeaFood addse = new ADDSeaFood();
+            addse.Dock = DockStyle.Fill;
             addse.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

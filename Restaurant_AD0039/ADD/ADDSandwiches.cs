@@ -84,10 +84,7 @@ namespace Restaurant_AD0039
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            frmSandwiches frmsa = new frmSandwiches();
-            frmsa.Show();
-            ADDSandwiches addsa = new ADDSandwiches();
-            addsa.Close();
+            Close();
         }
     }
 }

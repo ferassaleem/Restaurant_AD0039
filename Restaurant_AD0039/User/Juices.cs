@@ -65,8 +65,14 @@ namespace Restaurant_AD0039
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ADDSandwiches addsa = new ADDSandwiches();
-            addsa.Show();
+            ADDJuices addju = new ADDJuices();
+            addju.Dock = DockStyle.Fill;
+            addju.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

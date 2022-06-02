@@ -85,10 +85,7 @@ namespace Restaurant_AD0039
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            frmfastfood frmj = new frmfastfood();
-            frmj.Show();
-            ADDfastfood addfa = new ADDfastfood();
-            addfa.Close();
+            Close();
         }
     }
 }

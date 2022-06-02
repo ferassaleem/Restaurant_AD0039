@@ -70,9 +70,14 @@ namespace Restaurant_AD0039
         private void button1_Click(object sender, EventArgs e)
         {
             ADDfastfood addfa = new ADDfastfood();
+            addfa.Dock = DockStyle.Fill;
             addfa.Show();
         }
-        
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
     
 }
