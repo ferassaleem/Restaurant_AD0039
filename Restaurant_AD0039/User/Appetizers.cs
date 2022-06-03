@@ -34,7 +34,7 @@ namespace Restaurant_AD0039
             lbxSelection4.ClearSelected();
         }
         string DATA = "Provider = Microsoft.ACE.OLEDB.12.0; " + 
-            "Data Source =C:\\Users\\SCHOOL\\Desktop\\feras saleem\\Restaurant_AD0039\\Restaurant_AD0039\\DataBase\\Database21.accdb";
+            "Data Source = Database21.accdb";
         
         private void lbxSelection4_SelectedIndexChanged(object sender, EventArgs e)
         {

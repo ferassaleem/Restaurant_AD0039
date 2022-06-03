@@ -14,7 +14,7 @@ namespace Restaurant_AD0039
     public partial class ADDJuices : Form
     {
         string DATA = "Provider = Microsoft.ACE.OLEDB.12.0; " +
-            "Data Source = C:\\Users\\SCHOOL\\Desktop\\feras saleem\\Restaurant_AD0039\\Restaurant_AD0039\\DataBase\\Database21.accdb";
+            "Data Source = Database21.accdb";
         public ADDJuices()
         {
             InitializeComponent();
