@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace Restaurant_AD0039.DataBase {
+namespace Restaurant_AD0039 {
     
     
     /// <summary>
@@ -2799,7 +2799,7 @@ namespace Restaurant_AD0039.DataBase {
         }
     }
 }
-namespace Restaurant_AD0039.DataBase.Database21DataSetTableAdapters {
+namespace Restaurant_AD0039.Database21DataSetTableAdapters {
     
     
     /// <summary>

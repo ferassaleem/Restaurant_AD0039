@@ -103,7 +103,7 @@
     <Compile Include="ADD\ADDSandwiches.Designer.cs">
       <DependentUpon>ADDSandwiches.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataBase\Database21DataSet.Designer.cs">
+    <Compile Include="Database21DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Database21DataSet.xsd</DependentUpon>
@@ -203,15 +203,15 @@
     <EmbeddedResource Include="User\SeaFood.resx">
       <DependentUpon>SeaFood.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="DataBase\Database21DataSet.xsc">
+    <None Include="Database21DataSet.xsc">
       <DependentUpon>Database21DataSet.xsd</DependentUpon>
     </None>
-    <None Include="DataBase\Database21DataSet.xsd">
+    <None Include="Database21DataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>Database21DataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DataBase\Database21DataSet.xss">
+    <None Include="Database21DataSet.xss">
       <DependentUpon>Database21DataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
@@ -231,7 +231,7 @@
     <None Include="Resources\download.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DataBase\Database21.accdb">
+    <Content Include="Database21.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
